@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout padre-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/lblBase">
+
+    <!--Elementos hijos -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_encabezado"
+        android:textSize="@dimen/txtV_header"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/primary_text_dark"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding_general"
+        android:textAlignment="center"/>
+    <!--Linear layout hijo-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/txt_nombre"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:padding="@dimen/padding_general"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_nombre"
+            android:inputType="text"
+            android:autofillHints=""/>
+
+        <TextView
+            android:text="@string/txt_apellido"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtApellido"
+            android:padding="@dimen/padding_general"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_apellido"
+            android:inputType="text"
+            android:autofillHints="Sombre"/>
+
+        <TextView
+            android:text="@string/txt_edad"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtEdad"
+            android:padding="@dimen/padding_general"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_edad"
+            android:inputType="number"
+            android:autofillHints="Sombre"/>
+
+        <TextView
+            android:text="@string/txt_peso"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtPeso"
+            android:padding="@dimen/padding_general"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_peso"
+            android:inputType="numberDecimal"
+            android:autofillHints="Sombre"/>
+
+    </LinearLayout>
+    <!-- Botón -->
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_marginTop="@dimen/btn_margin_top"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_end"
+        android:text="@string/btn_guardar"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

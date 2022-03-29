@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Margen de por lado-->
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="margin_start">10dp</dimen>
+    <dimen name="margin_end">10dp</dimen>
+    <!--Margen en general-->
+    <dimen name="margin">10dp</dimen>
+    <!--Padding-->
+    <dimen name="padding_general">16dp</dimen>
+    <dimen name="padding_top">16dp</dimen>
+    <dimen name="padding_butom">16dp</dimen>
+    <dimen name="padding_end">16dp</dimen>
+    <dimen name="padding_start">16dp</dimen>
+    <!--Tamaños de textos-->
+    <dimen name="txtV_header">20sp</dimen>
+    <dimen name="txtV_general">12sp</dimen>
+    <dimen name="btn_margin_top">70dp</dimen>
+
+</resources>

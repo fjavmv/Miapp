@@ -1,0 +1,18 @@
+<resources>
+    <!--Nombre de la aplicación-->
+    <string name="app_name">MiApp</string>
+    <!--Controles txtView-->
+    <string name="txt_encabezado">Formulario de datos personales</string>
+    <string name="txt_nombre">Nombre persona</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_edad">Edad</string>
+    <string name="txt_peso">Peso</string>
+    <!--EditText-->
+
+    <!--Button-->
+    <string name="btn_guardar">Guardar información</string>
+
+    <!--Datos en general-->
+    <string name="msj_dataos">Se ha enviado tu información</string>
+
+</resources>
